@@ -1,0 +1,8 @@
+# Resolu-o-de-exerc-cio-curso-em-v-deo-de-Python-
+def área(a, b):
+	total = a * b
+	print(f"a area do terreno {a} x {b} e de {total}m²")
+
+a = float(input("Largura: "))
+b = float(input("Comprimento: "))
+área (a, b)
