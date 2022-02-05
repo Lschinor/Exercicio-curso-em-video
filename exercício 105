@@ -1,0 +1,15 @@
+# Resolu-o-de-exerc-cio-curso-em-v-deo-de-Python-
+def notas(*n):
+    r = dict()
+    r['total'] = len(n)
+    r['Maior'] = max(n)
+    r['Menor'] = min(n)
+    r['Média'] = sum(n) / len(n)
+
+    return r
+
+
+
+
+resp = notas(5.5, 2.5, 1.5)
+print(resp)
