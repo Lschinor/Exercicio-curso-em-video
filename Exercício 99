@@ -1,0 +1,33 @@
+# Resolu-o-de-exerc-cio-curso-em-v-deo-de-Python
+da hora importar dormir
+def contador(i,f,p):
+    se p < 0:
+        p *= -1
+    se p == 0:
+        p = 1
+    print('=*=' * 20)
+    print(f'Contagem de {i} até {f} de {p} em {p}')
+    dormir(1)
+
+    se eu < f:
+        cont = eu
+        enquanto cont <= f:
+            print(f'{cont}', end=' ')
+            dormir(1)
+            cont += p
+        print('FIM')
+    senão:
+        cont = eu
+        enquanto cont >= f:
+            print(f'{cont}', end=' ')
+            dormir(1)
+            cont -= p
+        print('FIM')
+contador(1, 10, 1)
+contador(10, 0, 2)
+print('Agora é sua vez')
+ini = int(input('Início: '))
+fim = int(input('Fim: '))
+pas = int(input('Passo: '))
+contador(ini, fim, pas)
+© 2
