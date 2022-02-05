@@ -1,0 +1,16 @@
+# Resolu-o-de-exerc-cio-curso-em-v-deo-de-Python-
+def voto(idade):
+    de datetime data de importação
+    ano = data.hoje().ano
+    #print(ano)
+    ida = ano - anonas
+    se ida < 16:
+        return f'com {ida} anos não pode votar'
+    elif ida == 16 e ida == 17 ou ida >= 65:
+        return f'com {ida} anos o voto é opcional'
+    elif ida >= 18 e ida < 65:
+        return f'Com {ida} anos o voto é obrigatório'
+
+
+anonas = int(input('Em que ano a pessoa nasceu? '))
+print(voto(anonas))
